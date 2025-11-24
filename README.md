@@ -38,7 +38,7 @@ Tailwind CSS	Styling
 Vite	        Fast bundling & dev server
 
 ## ⚙️ How to Run Locally
-bash```
+```bash
 # Clone the repository
 
     git clone https://github.com/sahilraj87083/PlayWithColor.git
