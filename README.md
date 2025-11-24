@@ -1,16 +1,59 @@
-# React + Vite
+# 🎨 React Background Color Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive React project that allows users to change the background color of the screen dynamically by clicking on color buttons. This project is built using **React Hooks (useState)** and **Tailwind CSS** for styling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Dynamic background color change on button click
+- Buttons generated automatically using an array of colors
+- Smooth background transition effect
+- Fully responsive using Tailwind CSS
+- Beginner-friendly structure
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🖼 Demo
+Users can click on any color button displayed at the bottom of the screen to instantly update the background.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+src/
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+
+
+---
+
+
+
+## 🛠 Technologies Used
+Technology	    Purpose
+React	        UI development
+JavaScript	    Logic & interaction
+Tailwind CSS	Styling
+Vite	        Fast bundling & dev server
+
+## ⚙️ How to Run Locally
+
+# Clone the repository
+git clone https://github.com/sahilraj87083/PlayWithColor.git
+
+# Navigate into project folder
+cd PlayWithColor
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+
+## 🌱 Future Enhancement Ideas
+- Add custom color picker
+- Add random color button
+- Add gradient mode
+- Highlight selected color
