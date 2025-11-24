@@ -38,19 +38,21 @@ Tailwind CSS	Styling
 Vite	        Fast bundling & dev server
 
 ## ⚙️ How to Run Locally
-
+bash```
 # Clone the repository
-git clone https://github.com/sahilraj87083/PlayWithColor.git
+
+    git clone https://github.com/sahilraj87083/PlayWithColor.git
+
 
 # Navigate into project folder
-cd PlayWithColor
+    cd PlayWithColor
 
 # Install dependencies
-npm install
+    npm install
 
 # Start the development server
-npm run dev
-
+    npm run dev
+```
 
 ## 🌱 Future Enhancement Ideas
 - Add custom color picker
